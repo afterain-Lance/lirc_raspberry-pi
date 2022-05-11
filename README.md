@@ -11,6 +11,7 @@ node.js 및 npm 설치
 
 ### lircd.conf 불러오기
 
+    <모델명>.lircd.conf이 위치한 경로에서
     sudo cp <모델명>.lircd.conf /etc/lirc/lircd.conf.d/<모델명>.lircd.conf
 라이브러리 파일을 lirc에서 읽을 수 있도록 복사
 
