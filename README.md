@@ -26,12 +26,12 @@ node.js 및 npm 설치
    현재 등록된 컨트롤러명 확인
 	   
 
-    irsend LIST <model name> ""
+    irsend LIST <모델명> ""
   특정 컨트롤러의 등록된 동작명 확인
   
 
-    irsend SEND_ONCE <ahepud
-    > <action name>
+    irsend SEND_ONCE <모델명
+    > <동작명>
    특정 컨트롤의 특정 동작 실행
 
 ### node.js (프로젝트의 루트 디렉토리)
@@ -43,12 +43,13 @@ node.js 및 npm 설치
     node index.js
    실행
 
-#### p.s index.js 속 'whisen' = \<model name>, 'on' / 'off' == \<action name>
-#### 터미널을 통해 확인 후 수정하여 재사용 가능 
+#### p.s index.js 속 'whisen' = \<모델명>, 'on' / 'off' == \<동작명>
+#### 터미널을 통해 리스트에서 각각 이름 확인 후 수정하여 재사용 가능 
 ## 수신값 확인
 
     sudo mode2 -m -d /dev/lirc1
    수신값을 확인하여 발신기와 수신기가 정상인지 확인가능
+   수신값이 뜨지않으면 수신기가 불량인지 확인해볼 것
 
 
 
