@@ -1,6 +1,6 @@
  # Lirc 사용방법
 
-예시를 위하여 AKB75735408.lircd.conf 및 node.js를 이용하여 3초에 한번씩 on 신호와 off를 번갈아가며  예제 첨부
+예시를 위하여 AKB75735408.lircd.conf 및 node.js를 이용하여 3초에 한번씩 on 신호와 off를 번갈아가며 작동하는 예제 첨부
 
 ## 사전준비
 
@@ -30,7 +30,8 @@ node.js 및 npm 설치
   특정 컨트롤러의 등록된 동작명 확인
   
 
-    irsend SEND_ONCE <model name> <action name>
+    irsend SEND_ONCE <ahepud
+    > <action name>
    특정 컨트롤의 특정 동작 실행
 
 ### node.js (프로젝트의 루트 디렉토리)
