@@ -11,14 +11,14 @@ node.js 및 npm 설치
 
 ### lircd.conf 불러오기
 
-    sudo cp <model name>.lircd.conf /etc/lirc/lircd.conf.d/<model name>.lircd.conf
-파일 저장
+    sudo cp <모델명>.lircd.conf /etc/lirc/lircd.conf.d/<모델명>.lircd.conf
+라이브러리 파일을 lirc에서 읽을 수 있도록 복사
 
     sudo /etc/init.d/lircd reload
-불러오기
+재시작하여 라이브러리 불러오기
 
     sudo /etc/init.d/lircd stop
-송신준비 ( 데몬이 켜져있으면 작동할 수 없다고 함. )
+데몬을 종료시켜서 송신준비 ( 데몬이 켜져있으면 작동할 수 없다고 함. )
 # 송신하기
 
 ### terminal
